@@ -1,13 +1,10 @@
 def square_array(array)
   # your code here
-  ar = []
-  array.each do |i|
-  new_numbers = i**2
-  ar << new_numbers
-  end
-  ar
+  squared = []
+  array.each { |i| squared << i ** 2 } 
+  squared
 end
 
 def new_array_collect(array)
-  new_numbers.collect{|i| i**2}
+  squared.collect{|i| i**2}
 end
