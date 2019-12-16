@@ -1,3 +1,4 @@
 def square_array(array)
-  # your code here
+numbers = [24, 45, 66, 22].square!
+numbers.each do |square|
 end
